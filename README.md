@@ -32,7 +32,7 @@ Les données sont réparties en 5 sections principales :
 4. Données nutritionnelles  
 5. Autres  
 
-![Exploration des données](./images/exploration_donnees.png)
+![Exploration des données](Illustration_diapos/exploration_donnees.png)
 
 ---
 
@@ -47,7 +47,7 @@ Les données sont réparties en 5 sections principales :
 ### **Résumé final des données**  
 - **Taille finale** : 58 812 lignes, 16 variables  
 
-![Nettoyage des données](./images/nettoyage_donnees.png)
+![Nettoyage des données](Illustration_diapos/nettoyage_donnees.png)
 
 ---
 
@@ -57,7 +57,7 @@ Les données sont réparties en 5 sections principales :
 - Distribution des nutriments : protéines, glucides, matières grasses  
 - Variabilité des nutri-scores  
 
-![Analyse univariée](./images/analyse_univariee.png)
+![Analyse univariée](Illustration_diapos/analyse_univariee.png)
 
 ### Analyse Multivariée  
 - Test de Kruskal-Wallis (ANOVA non paramétrique) :  
@@ -70,7 +70,7 @@ Les données sont réparties en 5 sections principales :
     - Produits gras et caloriques  
     - Produits peu gras et peu caloriques  
 
-![ACP - Clusters Nutritionnels](./images/acp_clusters.png)
+![ACP - Clusters Nutritionnels](Illustration_diapos/acp_clusters.png)
 
 ---
 
@@ -86,7 +86,7 @@ Les données sont réparties en 5 sections principales :
   - Fibres : 5  
   - Sel : 7  
 
-![Pondération des scores](./images/ponderation_scores.png)
+![Pondération des scores](Illustration_diapos/ponderation_scores.png)
 
 ### **Moteur de Recommandation**  
 - Prétraitement des noms de produits :  
@@ -96,7 +96,7 @@ Les données sont réparties en 5 sections principales :
   - Distance de cosinus entre caractéristiques nutritionnelles  
   - Algorithme KNN pour le tri des produits recommandés  
 
-![Architecture de l'application](./images/moteur_recommendation.png)
+![Architecture de l'application](Illustration_diapos/moteur_recommendation.png)
 
 ---
 
@@ -106,7 +106,7 @@ Les données sont réparties en 5 sections principales :
 - Données nettoyées et analysées  
 - Moteur de recommandation basé sur la similarité nutritionnelle  
 
-![Bilan](./images/bilan_conclusion.png)
+![Bilan](Illustration_diapos/bilan_conclusion.png)
 
 ### **Limites**  
 - Fiabilité de la similarité sur l'ensemble des produits  
@@ -117,11 +117,3 @@ Les données sont réparties en 5 sections principales :
 2. Fonctionnalité de scan des produits pour vérifier leur conformité (ex : produits interdits)  
 3. Calcul automatisé du bilan protéique journalier/mensuel  
 
----
-
-## **Contact**  
-
-Pour toute question ou demande de collaboration :  
-- **Email** : yannickquerin@gmail.com  
-- **LinkedIn** : [Yannick Quérin](https://linkedin.com/in/yannick-quérin/)  
-- **GitHub** : [YannickQuerin](https://github.com/YannickQuerin)  
